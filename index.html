@@ -9,6 +9,12 @@
     <!--ICONES-->
     <link rel="stylesheet" href="assets/fonts/style.css" />
 
+    <!--SWIPER-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
     <!--STYLES-->
     <link rel="stylesheet" href="style.css" />
 
@@ -18,11 +24,6 @@
     <link
       href="https: //fonts.googleapis.com/css2? família= DM+Sans:wght@400;500;700 &família= Poppins:wght@400;500;700 & display=swap"
       rel="stylesheet"
-    />
-    <!--SWIPER-->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
   </head>
   <body>
@@ -152,74 +153,111 @@
       <div class="divider-1"></div>
 
       <!-- TESTIMONIALS -->
-      <section class="sectoin" id="testimonials">
-        <div class="container grid">
+      <section class="section" id="testimonials">
+        <div class="container">
           <header>
             <h2 class="title">Depoimentos de quem já passou por aqui</h2>
           </header>
-          <div class="testimonials">
-            <div class="testimonial swiper-slide">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Soluta iure excepturi quibusdam, reprehenderit velit aperiam,
-                  ipsam esse dignissimos blanditiis nesciunt sapiente pariatur,
-                  odio fugit quod dolore nobis porro quam repellendus.
-                </p>
-                <cite>
-                  <img
-                    src="https://randomuser.me/api/portraits/women/11.jpg"
-                    alt="mulher de cabelos loiros chamada wanessa"
-                  />
-                  Wanessa Souza
-                </cite>
-              </blockquote>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Soluta iure excepturi quibusdam, reprehenderit velit
+                    aperiam, ipsam esse dignissimos blanditiis nesciunt sapiente
+                    pariatur, odio fugit quod dolore nobis porro quam
+                    repellendus.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/11.jpg"
+                      alt="mulher de cabelos loiros chamada wanessa"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Soluta iure excepturi quibusdam, reprehenderit velit
+                    aperiam, ipsam esse dignissimos blanditiis nesciunt sapiente
+                    pariatur, odio fugit quod dolore nobis porro quam
+                    repellendus.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/29.jpg"
+                      alt="foto de Franciele"
+                    />
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Soluta iure excepturi quibusdam, reprehenderit velit
+                    aperiam, ipsam esse dignissimos blanditiis nesciunt sapiente
+                    pariatur, odio fugit quod dolore nobis porro quam
+                    repellendus.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/lego/1.jpg"
+                      alt="FOTO DE MILTON NEVES"
+                    />
+                    Milton Neves
+                  </cite>
+                </blockquote>
+              </div>
             </div>
 
-            <div class="testimonial swiper-slide">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Soluta iure excepturi quibusdam, reprehenderit velit aperiam,
-                  ipsam esse dignissimos blanditiis nesciunt sapiente pariatur,
-                  odio fugit quod dolore nobis porro quam repellendus.
-                </p>
-                <cite>
-                  <img
-                    src="https://randomuser.me/api/portraits/women/29.jpg"
-                    alt="foto de Franciele"
-                  />
-                  Franciele Venega
-                </cite>
-              </blockquote>
-            </div>
-
-            <div class="testimonial swiper-slide">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Soluta iure excepturi quibusdam, reprehenderit velit aperiam,
-                  ipsam esse dignissimos blanditiis nesciunt sapiente pariatur,
-                  odio fugit quod dolore nobis porro quam repellendus.
-                </p>
-                <cite>
-                  <img
-                    src="https://randomuser.me/api/portraits/lego/1.jpg"
-                    alt="FOTO DE MILTON NEVES"
-                  />
-                  Milton Neves
-                </cite>
-              </blockquote>
-            </div>
+            <!--If we need pagination-->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
 
+      <div class="divider-2"></div>
+
       <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Beautsalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5567996571844&text=Oi! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+            >
+              <i class="icon-whatsapp">Entrar em contato</i></a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 11 99845-6754</li>
+              <li><i class="icon-map-pin"></i> R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
+
     <!--SWIPER-->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
