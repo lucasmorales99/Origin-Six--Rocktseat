@@ -141,10 +141,14 @@ main {
   font: 700 1.31rem 'Poppins', sans-serif;
   color: var(--title-color);
 }
+
 .logo span {
   color: var(--base-color);
 }
 
+.logo-alt span {
+  color: var(--body-color);
+}
 /*=========== NAVIGATION ============================*/
 
 nav {
@@ -405,7 +409,9 @@ nav.show div.icon-close {
   height: auto;
   padding: 4rem 1rem;
 }
-
+.swiper-pagination {
+  position: relative;
+}
 .swiper-pagination-bullet {
   width: 0.75rem;
   height: 0.75rem;
@@ -441,4 +447,27 @@ nav.show div.icon-close {
 
 #contact ul li i {
   color: var(--base-color);
+}
+/*============= FOOTER =============================*/
+footer {
+  background: var(--base-color);
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+footer .brand p {
+  color: var(--text-color-light);
+  margin-bottom: 0.75rem;
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+}
+
+footer .social a {
+  margin-right: 2rem;
 }
